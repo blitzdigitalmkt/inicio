@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blitz Marketing Digital</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo"><img src="./images/logo.png" alt="Blitz Marketing"></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Overlay para menu mobile -->
+    <div class="overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Potencialize seu <span>Marketing Digital</span> com estratégias inovadoras</h1>
+                <p>Alcance resultados reais com soluções personalizadas para alavancar seu negócio no ambiente digital.
+                </p>
+                <a href="#contact" class="btn">Solicite um orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Oferecemos soluções completas para alavancar a presença digital da sua empresa,
+                aumentar vendas e fortalecer sua marca.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Avançado</h3>
+                    <p>Otimização para motores de busca com técnicas avançadas para posicionar seu site nas primeiras
+                        posições do Google.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Marketing de Conteúdo</h3>
+                    <p>Estratégias de conteúdo que atraem, engajam e convertem visitantes em clientes fiéis à sua marca.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Gestão de Anúncios</h3>
+                    <p>Campanhas otimizadas no Google Ads e Facebook Ads para maximizar seu retorno sobre investimento.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Dados</h3>
+                    <p>Análise completa de métricas e KPIs para tomar decisões baseadas em dados concretos.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Redes Sociais</h3>
+                    <p>Gestão profissional das suas redes sociais para aumentar o engajamento e a autoridade da sua
+                        marca.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Campanhas de email estratégicas para nutrição de leads e aumento de conversões.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <p class="section-subtitle">Veja o que nossos clientes dizem sobre nossos serviços de Marketing Digital</p>
+
+            <div class="testimonial-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar">
+                                <img src="./images/client02.PNG" alt="Cliente 1">
+                            </div>
+                            <p class="testimonial-text">"A equipe da Blitz Marketing transformou completamente nossa
+                                presença online. Nosso tráfego orgânico aumentou 220% em apenas 6 meses e as conversões
+                                duplicaram!"</p>
+                            <h4 class="testimonial-author">Thierry Augusto</h4>
+                            <p class="testimonial-company">CEO Blitz Marketing Digital</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar">
+                                <img src="./images/client01.PNG" alt="Cliente 2">
+                            </div>
+                            <p class="testimonial-text">"As campanhas de Google Ads gerenciadas pela Blitz trouxeram um
+                                ROI de 380% para nossa empresa. Estamos extremamente satisfeitos com os resultados."</p>
+                            <h4 class="testimonial-author">João Vitor Oliveira</h4>
+                            <p class="testimonial-company">Fundador e Diretor Hnk Soluções</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar">
+                                <img src="./images/client03.PNG" alt="Cliente 3">
+                            </div>
+                            <p class="testimonial-text">"A estratégia de conteúdo implementada pela Blitz nos posicionou
+                                como autoridade no mercado. Nossa taxa de conversão de leads aumentou em 95%."</p>
+                            <h4 class="testimonial-author">Felipe Menezes</h4>
+                            <p class="testimonial-company">Empresário</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-arrows">
+                    <button class="carousel-arrow prev-arrow">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-arrow next-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="nav-dot active" data-slide="0"></button>
+                    <button class="nav-dot" data-slide="1"></button>
+                    <button class="nav-dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos prontos para potencializar os resultados da sua empresa. Preencha o
+                formulário e receba uma consultoria gratuita.</p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Vamos conversar</h3>
+                    <p>Preencha o formulário e um de nossos especialistas entrará em contato em até 24 horas para
+                        entender suas necessidades e objetivos.</p>
+
+                    <div class="contact-details">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Somente Atendimento Online</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <span>(34) 99960-4008</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@blitzdigitalmkt.com.br</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="return false;">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="button" class="btn" id="submitBtn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-about">
+                <h3>Blitz Marketing Digital</h3>
+                <p>Somos uma agência completa de marketing digital focada em resultados. Ajudamos empresas a se
+                    destacarem no ambiente digital com estratégias eficientes e inovadoras.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/18m45Y9Uqf/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/blitzdigitalmkt?igsh=MXZnbnR1MmVxMGc3NQ=="><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/55034999604008"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Somente Atendimento Online</span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>(34) 99960-4008</span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>contato@blitzdigitalmkt.com.br</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 Blitz Marketing Digital. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
